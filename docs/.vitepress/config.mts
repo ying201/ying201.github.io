@@ -7,7 +7,16 @@ export default defineConfig({
   title: "Blog",
   description: "ying201's blog",
   titleTemplate: "Blog | :title",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "MX1eK0VRiaFy3YQBfQ7A6QjscbHdiEyTAj10C2-UBu0",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
@@ -15,5 +24,16 @@ export default defineConfig({
     logo: "/logo.png",
     // siteTitle: false,
     socialLinks: [{ icon: "github", link: "https://github.com/ying201" }],
+    editLink: {
+      pattern:
+        "https://github.com/ying201/ying201.github.io/edit/main/docs/:path",
+    },
+    footer: {
+      // message:
+      //   'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+      copyright:
+        'Copyright © 2024-present <a href="https://github.com/ying201">ying201</a>',
+    },
   },
+  lastUpdated: true,
 });

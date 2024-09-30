@@ -17,10 +17,13 @@ hero:
       link: https://github.com/ying201
 
 features:
-  - title: 前端开发
+  # - icon: ✨
+  - title: 前端开发✨
     details: HTML/CSS/JavaScript/Vue/React/Typescript/Vite/Webpack/Mobx/Redux...
-  - title: 计算机基础
+  # - icon: 🙌
+  - title: 计算机基础🙌
     details: 计算机“基础”
-  - title: 其他
+  # - icon: 🍀
+  - title: 其他🍀
     details: 还没想好
 ---
