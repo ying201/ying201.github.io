@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "个人博客"
-  text: "---"
-  tagline: 记录一些
+  name: "学习记录"
+  text: "🔸🚩🔹"
+  tagline: 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣
   image:
     src: /logo.png
   actions:
@@ -24,6 +24,6 @@ features:
   - title: 计算机基础🙌
     details: 计算机“基础”
   # - icon: 🍀
-  - title: 其他🍀
-    details: 还没想好
+  # - title: 其他🍀
+  #   details: 还没想好
 ---

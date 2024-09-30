@@ -4,9 +4,9 @@ import { nav } from "./nav";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Blog",
+  title: "(●'◡'●)",
   description: "ying201's blog",
-  titleTemplate: "Blog | :title",
+  titleTemplate: "(●'◡'●) | :title",
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     [
